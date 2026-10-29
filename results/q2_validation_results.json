@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "train_rows": 800,
+  "test_rows": 200,
+  "validation_rows": 160,
+  "validation_results": [
+    {
+      "model": "rbf_svm_50_features",
+      "balanced_accuracy": 0.7106869034579878,
+      "f1_macro": 0.7108736643620364
+    },
+    {
+      "model": "rbf_svm_6_features",
+      "balanced_accuracy": 0.5385698638710688,
+      "f1_macro": 0.4968553459119497
+    },
+    {
+      "model": "quantum_kernel_6_qubits",
+      "balanced_accuracy": 0.566499765294946,
+      "f1_macro": 0.5658841571310606
+    }
+  ],
+  "selected_model": "rbf_svm_50_features",
+  "quantum_kernel_details": null,
+  "test_labels_used_for_training_or_selection": false
+}

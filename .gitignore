@@ -1,0 +1,7 @@
+﻿.venv/
+.venv-qff/
+.venv-ui/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
