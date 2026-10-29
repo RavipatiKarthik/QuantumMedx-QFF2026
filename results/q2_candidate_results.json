@@ -1,0 +1,17 @@
+{
+  "model": "tuned_rbf_svm",
+  "training_rows": 800,
+  "test_rows": 200,
+  "feature_count": 50,
+  "selected_features": 30,
+  "C": 1.0,
+  "gamma": 0.01,
+  "class_weight": "balanced",
+  "test_labels_used": false,
+  "original_predictions_modified": false,
+  "prediction_counts": {
+    "A": 103,
+    "B": 97
+  },
+  "candidate_file": "predictions_q2_candidate.csv"
+}
