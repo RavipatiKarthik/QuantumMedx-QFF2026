@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "training_rows_for_search": 640,
+  "holdout_rows": 160,
+  "baseline": {
+    "C": 10.0,
+    "gamma": "scale",
+    "holdout_balanced_accuracy": 0.7106869034579878,
+    "holdout_macro_f1": 0.7108736643620364
+  },
+  "tuned_model": {
+    "best_params": {
+      "select__k": 30,
+      "svm__C": 1.0,
+      "svm__class_weight": "balanced",
+      "svm__gamma": 0.01
+    },
+    "mean_cv_balanced_accuracy": 0.7367572502374433,
+    "holdout_balanced_accuracy": 0.6879987482397121,
+    "holdout_macro_f1": 0.6874511642444132
+  },
+  "test_labels_used": false,
+  "predictions_q2_modified": false
+}
